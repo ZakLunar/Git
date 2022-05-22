@@ -26,3 +26,76 @@
 	display: flex;
 	justify-content: center;
 }
+.name{
+	border-bottom: 2px solid yellow;
+}
+.head{
+	border-bottom-left-radius: 15px;
+	width: 30%;
+	color: white;
+	display: flex;
+	background-image: url(images/black_background.jpg);
+	position: static;
+	flex-direction: column;
+	padding: 5px;
+}
+.list_contacts{
+	padding-left: 20px;
+}
+.like{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.cap{
+	margin: 2px;
+	border-radius: 5px;
+	width: 75%;
+	background-color: orange;
+}
+.v60{
+	margin: 2px;
+	border-radius: 5px;
+	width: 85%;
+	background-color: #2187f3;
+}
+.tonic{
+	margin: 2px;
+	border-radius: 5px;
+	width: 40%;
+	background-color: green;
+}
+.detail{
+	margin-left: 3px;
+	width: 350px;
+	color: #021d93;
+}
+.soft_skill,
+.place_of_birth,
+.about_me{
+	width: 100%;
+	border-bottom: 2px solid #2187f3;
+	margin-left: 3px
+}
+.ul_hyphen{
+	list-style-type: none;
+	padding-left: 20px;
+}
+.ul_hyphen>li:before{
+	content: "— ";
+}
+h4{
+	margin-top: 10px;
+}
+h1,h2{
+	text-align: center;
+	margin: 2px 0px;
+}
+h3{
+	text-decoration: underline;
+}
+img{
+	width: 80%;
+	border-radius: 10px;
+	border: 3px solid grey;
+}
