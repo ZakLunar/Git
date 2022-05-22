@@ -1,0 +1,28 @@
+
+@font-face{
+	font-family: unnamed;
+	src: url(17212.ttf);
+}
+.main{
+	border-radius: 20px;
+	font-family: unnamed;
+	width: 800px;
+	border: 5px solid grey;
+}
+.first_level{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	height: 50px;
+	background-color: #4b5972;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.second_level{
+	display: flex;
+}
+.icon{
+	padding-top: 5px;
+	display: flex;
+	justify-content: center;
+}
