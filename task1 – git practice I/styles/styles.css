@@ -6,7 +6,7 @@
 .main{
 	border-radius: 20px;
 	font-family: unnamed;
-	width: 800px;
+	width: 650px;
 	border: 5px solid grey;
 }
 .first_level{
@@ -34,7 +34,7 @@
 	width: 30%;
 	color: white;
 	display: flex;
-	background-image: url(images/black_background.jpg);
+	background-image: url(black_background.jpg);
 	position: static;
 	flex-direction: column;
 	padding: 5px;
@@ -62,7 +62,7 @@
 .tonic{
 	margin: 2px;
 	border-radius: 5px;
-	width: 40%;
+	width: 65%;
 	background-color: green;
 }
 .detail{
@@ -82,7 +82,7 @@
 	padding-left: 20px;
 }
 .ul_hyphen>li:before{
-	content: "— ";
+	content: "- ";
 }
 h4{
 	margin-top: 10px;
